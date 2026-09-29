@@ -17,7 +17,7 @@ if (isInNet(host,"10.83.24.0","255.255.248.0")) return "DIRECT";
 //if client is in these subnets below and target does meet rule above then use specified proxy
 //
 if (isInNet(myIpAddress(), "10.2.192.0","255.255.224.0"))
-return "PROXY 10.2.192.1:805; DIRECT";
+return "PROXY 10.2.192.1:800; DIRECT";
 //
 //*setting for other primaries*
 //Knowles
