@@ -18,6 +18,7 @@ if (isInNet(host,"10.2.192.0","255.255.224.0")) return "DIRECT";
 //
 if (isInNet(myIpAddress(), "10.14.40.0", "255.255.252.0"))
 return "PROXY 10.14.40.1:8085; DIRECT";
+//return "DIRECT";
 //
 //*setting for other primaries*
 //Knowles
